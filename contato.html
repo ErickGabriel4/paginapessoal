@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Formulário de Contato</title>
+</head>
+<body>
+
+<h2>Formulário de Contato</h2>
+
+<form action="#" method="post">
+    <div>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+    </div>
+    <div>
+        <label for="fone">Fone:</label>
+        <input type="tel" id="fone" name="fone" required>
+    </div>
+    <div>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+    </div>
+    <div>
+        <label for="motivo">Motivo do Contato:</label>
+        <select id="motivo" name="motivo">
+            <option value="duvida">Dúvida</option>
+            <option value="sugestao">Sugestão</option>
+            <option value="elogio">Elogio</option>
+            <option value="reclamacao">Reclamação</option>
+            <option value="outro">Outro</option>
+        </select>
+    </div>
+    <div>
+        <label for="comentarios">Comentários Gerais:</label><br>
+        <textarea id="comentarios" name="comentarios" rows="4" cols="50"></textarea>
+    </div>
+    <div>
+        <input type="submit" value="Enviar">
+    </div>
+</form>
+
+</body>
+</html>
