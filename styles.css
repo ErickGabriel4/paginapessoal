@@ -56,3 +56,19 @@ hr{
 footer{
     text-align: center;
 }
+
+
+#perfil{
+    border: 2px;
+    border-style: solid;
+    border-radius: 50%;
+    width: 10%;
+    float: inline-end;
+    
+
+  
+  
+   
+    
+    
+}
